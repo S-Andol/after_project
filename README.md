@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Git init
 
 # start .
@@ -27,3 +28,7 @@ python manage.py runserver
 python manage.py migrate
 
 Agregamos "db.sqlite3" en el gitignore
+=======
+# after_project
+Este proyecto es para verlo en los after class
+>>>>>>> 8bd602d95e15d07d6fc5d364ca7b29c270787292

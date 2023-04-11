@@ -76,4 +76,31 @@ git pull --allow-unrelated-histories
 
 git pull y listo
 
+# git commit
+Como tuvimos un problema donde no se pudo commitear, entonces lo tenemos que hacer nosotros.
+git status
+git add .
+git status
+git commit (solo)
+git log --oneline (vemos que vamos a subir)
+git push
 
+# tiramos el server python manage.py runserver
+
+# creamos la app
+python manage.py startapp inicio
+
+# Creamos una vista simple
+def inicio(request):
+    return render (request, 'inicio/inicio.html')
+
+# creamos el template
+Dentro de inicio
+Creamos la carpeta template
+Dentro de template creamos inicio
+Y dentro de inicio creamos inicio.html
+
+Recorda que en setting le podemos decir que tome en cuenta todos los templates
+
+# Ahora nos falta el URL
+Creamos el url.py
